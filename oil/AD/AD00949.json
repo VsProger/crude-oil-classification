@@ -1,0 +1,84 @@
+{
+    "oil_id": "AD00949",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "RIO ZULIA",
+        "source_id": "AD00949",
+        "location": "Santa Marta, Colombia",
+        "reference": {
+            "year": 1982,
+            "reference": "International Tanker Owners Pollution Federation (TOPALOP). 1982. Technical Information Paper No. 4, Use of Oil Dispersants pp.8."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 40.8,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "Rin",
+                "date": "2022-11-28T15:06:58.928-08:00",
+                "comment": "Issue #27 - Normalized Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 27.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 820.53,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 4e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "oil_id": "AD01508",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "MAUI F SAND, MARITIME SAFETY AUTHORITY OF NEW ZEALAND",
+        "source_id": "AD01508",
+        "location": "Taranaki, New Zealand",
+        "reference": {
+            "year": 1996,
+            "reference": "Welsh,C., Maritime Safety Authority of New Zealand, Communication to Bill Lehr, NOAA, July 29, 1996."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 44.3,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-28T13:36:50.781-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 24.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 804.19,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 2.59e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 30.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

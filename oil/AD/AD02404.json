@@ -1,0 +1,68 @@
+{
+    "oil_id": "AD02404",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "CANOLA OIL",
+        "source_id": "AD02404",
+        "reference": {
+            "year": 1999,
+            "reference": "Simecek-Beatty, D., and Lankford, J., Personal communication April 4, 1999."
+        },
+        "product_type": "Natural Plant Oil",
+        "labels": [
+            "Fuel Oil",
+            "Natural Plant Oil",
+            "Refined Product"
+        ],
+        "model_completeness": 15
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 915.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 19.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 8.25e-05,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 19.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "oil_id": "NO00019",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "ELDFISK BLEND",
+        "source_id": "NO00019",
+        "location": "Norway",
+        "reference": {
+            "year": 2015,
+            "reference": "Hellstrom K. C., Brandvik P. J., 2015, Comparison of predicted properties of Ekofisk oils based on crude assay data, SINTEF A27361"
+        },
+        "sample_date": "2011",
+        "product_type": "Crude Oil NOS",
+        "API": 35.61,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 32,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-28T12:11:33.340-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-11-23T17:07:12.066216",
+                "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-12-11T18:51:33.903132",
+                "comment": "Changed *max_value* to *value* for fraction_recovered."
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 261.15,
+                        "unit": "K",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 846.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.05,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 286.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.0001,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "distillation_data": {
+                "type": "mass fraction",
+                "fraction_recovered": {
+                    "value": 1.0,
+                    "unit": "fraction",
+                    "unit_type": "concentration"
+                }
+            },
+            "bulk_composition": [
+                {
+                    "name": "wax_content",
+                    "measurement": {
+                        "value": 0.0279,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "name": "37.0% Weathered",
+                "short_name": "37.0% Weathered",
+                "fraction_evaporated": {
+                    "value": 0.37,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 902.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 3.41,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 286.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "fraction_recovered": {
+                    "value": 1.0,
+                    "unit": "fraction",
+                    "unit_type": "concentration"
+                }
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "oil_id": "AD02473",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "TEMPA ROSSA, OIL & GAS JOURNAL",
+        "source_id": "AD02473",
+        "location": "Italy",
+        "reference": {
+            "year": 2003,
+            "reference": "PennWell Corp. 1-800-752-9764, 2003. Oil & Gas Journal Data Book. Tulsa, OK: Pennwell Books. 368 pp."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 20.4,
+        "labels": [
+            "Crude Oil",
+            "Medium Crude"
+        ],
+        "model_completeness": 19,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T15:57:40.969-08:00",
+                "comment": "Issue #27 -- Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -36.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 931.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.000123,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 20.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 8.96e-05,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 30.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.093,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            },
+            "bulk_composition": [
+                {
+                    "name": "sulfur",
+                    "measurement": {
+                        "value": 0.0544,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "nickel",
+                    "measurement": {
+                        "value": 31.0,
+                        "unit": "ppm",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "vanadium",
+                    "measurement": {
+                        "value": 29.0,
+                        "unit": "ppm",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

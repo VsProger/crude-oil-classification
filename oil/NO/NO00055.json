@@ -1,0 +1,464 @@
+{
+    "oil_id": "NO00055",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "KVITEBJORN",
+        "source_id": "NO00055",
+        "location": "Norway",
+        "reference": {
+            "year": 2009,
+            "reference": "Sorheim K. R., Altin D., 2009, Kvitebjorn oljen - kartlegging av forvitringsegenskaper, vannloselighet og giftighet, SINTEF A13743"
+        },
+        "sample_date": "2009",
+        "product_type": "Crude Oil NOS",
+        "API": 44.85,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 58,
+        "change_log": [
+            {
+                "name": "Rin",
+                "date": "2022-11-25T12:14:13.074-08:00",
+                "comment": "Issue #25 - Name with Reference Year"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T13:08:32.976-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-11-23T17:07:12.352731",
+                "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-12-11T18:51:34.126730",
+                "comment": "Changed *max_value* to *value* for fraction_recovered."
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 264.15,
+                        "unit": "K",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": -22.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 801.7,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.005,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 286.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 0.026,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 278.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.0007,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "distillation_data": {
+                "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 1.0,
+                    "unit": "fraction",
+                    "unit_type": "concentration"
+                },
+                "cuts": [
+                    {
+                        "fraction": {
+                            "value": 0.0069,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.0573,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 70.10000000000002,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.125,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 96.60000000000002,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.184,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 116.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.258,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 140.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.321,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 165.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.438,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 205.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.546,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 250.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.644,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 292.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.703,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 320.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.789,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 375.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.843,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 420.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.934,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 525.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "compounds": [
+                {
+                    "name": "benzene",
+                    "measurement": {
+                        "value": 0.0126,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ],
+            "bulk_composition": [
+                {
+                    "name": "wax_content",
+                    "measurement": {
+                        "value": 0.0431,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "name": "25.3% Weathered",
+                "short_name": "25.3% Weathered",
+                "fraction_evaporated": {
+                    "value": 0.253,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 826.7,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.043,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 286.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "fraction_recovered": {
+                    "value": 1.0,
+                    "unit": "fraction",
+                    "unit_type": "concentration"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "name": "41.2% Weathered",
+                "short_name": "41.2% Weathered",
+                "fraction_evaporated": {
+                    "value": 0.412,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 840.8,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.3,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 286.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "fraction_recovered": {
+                    "value": 1.0,
+                    "unit": "fraction",
+                    "unit_type": "concentration"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "name": "53.3% Weathered",
+                "short_name": "53.3% Weathered",
+                "fraction_evaporated": {
+                    "value": 0.533,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 853.4,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 4.09,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 286.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 10.09,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 278.15,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "fraction_recovered": {
+                    "value": 1.0,
+                    "unit": "fraction",
+                    "unit_type": "concentration"
+                }
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

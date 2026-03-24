@@ -1,0 +1,157 @@
+{
+    "oil_id": "AD01137",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "UNLEADED INTERM GASOLINE, STAR ENTERPRISE",
+        "source_id": "AD01137",
+        "reference": {
+            "year": 1992,
+            "reference": "McGee, K., Star Enterprise, Houston, Texas.  Letter to William Lehr, NOAA, May 4, 1992."
+        },
+        "product_type": "Distillate Fuel Oil",
+        "API": 57.5,
+        "comments": "WARNING: Benzene content of product is only an estimate and not a measured value.",
+        "labels": [
+            "Aviation Gas",
+            "Distillate Fuel",
+            "Fuel Oil",
+            "Gasoline",
+            "Refined Product"
+        ],
+        "model_completeness": 56,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2024-01-11T16:39:21.567-08:00",
+                "comment": "\u2013 Distillate Fuel Oil: Fraction Recovered Changed to 100%"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 748.03,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 7.5e-07,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 40.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
+                "cuts": [
+                    {
+                        "fraction": {
+                            "value": 0.01,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 27.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.1,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 47.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.2,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 59.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.5,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 103.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.9,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 167.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "compounds": [
+                {
+                    "name": "benzene",
+                    "measurement": {
+                        "value": 0.05,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

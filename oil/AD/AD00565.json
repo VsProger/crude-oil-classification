@@ -1,0 +1,85 @@
+{
+    "oil_id": "AD00565",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "IPPL LIGHT SOUR BLEND",
+        "source_id": "AD00565",
+        "location": "Saskatchewan, Canada",
+        "reference": {
+            "year": 1970,
+            "reference": "Petro-Canada. 1970. Private Communication, Petro-Canada Products Inc. to S.L. Ross enviroment Research Ltd. (1970)."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 35.9,
+        "comments": "A blend of light, moderately low sulfur crudes from fields in Sasatchewan.",
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-28T13:32:38.463-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -12.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 844.55,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 6.8e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 21.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

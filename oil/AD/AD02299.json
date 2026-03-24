@@ -1,0 +1,265 @@
+{
+    "oil_id": "AD02299",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "PLATFORM HOLLY",
+        "source_id": "AD02299",
+        "location": "California, USA",
+        "reference": {
+            "year": 1999,
+            "reference": "Jokuty, P., Whiticar, S., Wang, Z., Fingas, M., Fieldhouse, B., Lambert, P., Mullen, J. 1999. Properties of Crude Oils and Oil Products.  Manuscript Report EE-165, Environmental Protection Service, Environment Canada, Ottawa, Ontario."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 11.0,
+        "comments": "The sample received contained over 75% water.  This led to inconsistent rates of evaporation using the standard rotary evaporation method.\n\nThe data in this record may have been compiled from multiple sources and reflect samples of varying age and composition.",
+        "labels": [
+            "Crude Oil",
+            "Heavy Crude"
+        ],
+        "model_completeness": 59,
+        "location_coordinates": {
+            "type": "Point",
+            "coordinates": [
+                -119.906317,
+                34.389817
+            ]
+        },
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T15:00:18.832-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-25T15:10:14.862-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T10:48:14.360-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -9.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 11.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 999.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "density": {
+                            "value": 993.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 18.6,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 3.31,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_seawater": [
+                    {
+                        "tension": {
+                            "value": 0.032,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "environmental_behavior": {
+                "emulsions": [
+                    {
+                        "water_content": {
+                            "value": 0.77,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        }
+                    }
+                ]
+            },
+            "SARA": {
+                "saturates": {
+                    "value": 0.54,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                },
+                "aromatics": {
+                    "value": 0.14,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                },
+                "resins": {
+                    "value": 0.15,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                },
+                "asphaltenes": {
+                    "value": 0.17,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            },
+            "bulk_composition": [
+                {
+                    "name": "water_content",
+                    "measurement": {
+                        "value": 0.77,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "sulfur",
+                    "measurement": {
+                        "value": 0.0143,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "name": "24.0% Weathered",
+                "short_name": "24.0% Weathered",
+                "fraction_evaporated": {
+                    "value": 0.24,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 1000.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "density": {
+                            "value": 1000.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 5.98,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 4.07,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "permanent_warnings": [
+        "Warning: ADIOS2 data had a value for water content, but min and max emulsification constant were blank. 0.0 has been assumed, but that may not  be correct"
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

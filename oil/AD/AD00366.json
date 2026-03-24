@@ -1,0 +1,89 @@
+{
+    "oil_id": "AD00366",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "ESCRAVOS, CHEVRON",
+        "source_id": "AD00366",
+        "location": "Escravos, Nigeria",
+        "reference": {
+            "year": 1991,
+            "reference": "French, M., Chevron USA Inc., Letter to William Lehr, NOAA, November 7, 1991."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 36.2,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T15:28:00.219-08:00",
+                "comment": "Issue #27 -- Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T10:57:18.657-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 7.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 843.03,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 3.5e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

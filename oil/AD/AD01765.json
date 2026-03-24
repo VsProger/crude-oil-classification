@@ -1,0 +1,247 @@
+{
+    "oil_id": "AD01765",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "FUEL OIL NO.1 (JET B, ALASKA)",
+        "source_id": "AD01765",
+        "location": "Alaska, USA",
+        "reference": {
+            "year": 2017,
+            "reference": "A Catalogue of Crude Oil and Oil Product Properties Special Edition Pacific OCS Region. Prepared for Minerals Management Service and Environment Canada. Draft 12/97."
+        },
+        "product_type": "Distillate Fuel Oil",
+        "API": 42.9,
+        "labels": [
+            "Distillate Fuel",
+            "Fuel Oil",
+            "Refined Product"
+        ],
+        "model_completeness": 59,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T14:03:23.757-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "Rin",
+                "date": "2022-11-28T10:07:27.305-08:00",
+                "comment": "Issue #27 -- Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T09:35:51.569-08:00",
+                "comment": "\u2013 Distillate Fuel Oil: Fraction Recovered Changed to 100%"
+            },
+            {
+                "name": "jeff",
+                "date": "2024-06-05T10:33:57.411-07:00",
+                "comment": "deleted error in dyn visc value"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -54.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 42.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 822.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "density": {
+                            "value": 811.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.002,
+                            "unit": "kg/(m s)",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_water": [
+                    {
+                        "tension": {
+                            "value": 0.0359,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_seawater": [
+                    {
+                        "tension": {
+                            "value": 0.0333,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
+                "cuts": [
+                    {
+                        "fraction": {
+                            "value": 0.02,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 120.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.07,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 140.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.18,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 160.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.33,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 180.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.47,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 200.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.82,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 250.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.99,
+                            "unit": "fraction",
+                            "unit_type": "massfraction"
+                        },
+                        "vapor_temp": {
+                            "value": 300.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "bulk_composition": [
+                {
+                    "name": "sulfur",
+                    "measurement": {
+                        "value": 0.0008,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "oil_id": "AD01083",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "TEXTRACT, STAR ENTERPRISE",
+        "source_id": "AD01083",
+        "reference": {
+            "year": 1992,
+            "reference": "McGee, K., Star Enterprise, Houston, Texas.  Letter to William Lehr, NOAA, May 4, 1992."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 9.4,
+        "labels": [
+            "Crude Oil",
+            "Group V",
+            "Heavy Crude"
+        ],
+        "model_completeness": 15
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 28.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 257.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 1003.38,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.0013,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

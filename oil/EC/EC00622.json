@@ -1,0 +1,131 @@
+{
+    "oil_id": "EC00622",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "Kravtsovskoye",
+        "source_id": "622",
+        "location": "Russia",
+        "reference": {
+            "year": 2021,
+            "reference": "Environment and Climate Change Canada, Environment Canada Crude Oil and Petroleum Product Database, Environment and Climate Change Canada, 2021.\n\nurl: https://open.canada.ca/data/en/dataset/53c38f91-35c8-49a6-a437-b311703db8c5"
+        },
+        "sample_date": "2004-10-21",
+        "product_type": "Crude Oil NOS",
+        "API": 39.4,
+        "comments": "Kalinigradmorneft-Sampled from two locations:  in pipeline and from platform:\n\nhttps://en.wikipedia.org/wiki/Kravtsovskoye_oilfield\n",
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 11,
+        "change_log": [
+            {
+                "name": "Chris",
+                "date": "2024-09-06T18:27:16.360-07:00",
+                "comment": "Some hand edits to clean up the record"
+            },
+            {
+                "name": "Chris",
+                "date": "2024-09-06T18:30:34.992-07:00",
+                "comment": "Gave two subsamples different names"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample From pipeline",
+                "short_name": "Fresh Oil: pipeline",
+                "sample_id": "622.1",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.8277,
+                            "unit": "g/mL",
+                            "standard_deviation": 0.0001,
+                            "replicates": 3,
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "method": "ASTM D5002"
+                    },
+                    {
+                        "density": {
+                            "value": 0.8423,
+                            "unit": "g/mL",
+                            "standard_deviation": 0.0001,
+                            "replicates": 3,
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "method": "ASTM D5002"
+                    }
+                ]
+            }
+        },
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample from platform",
+                "short_name": "Fresh Oil: platform",
+                "sample_id": "622.2",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.8363,
+                            "unit": "g/mL",
+                            "standard_deviation": 0.0001,
+                            "replicates": 3,
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "method": "ASTM D5002"
+                    },
+                    {
+                        "density": {
+                            "value": 0.8486,
+                            "unit": "g/mL",
+                            "standard_deviation": 0.0001,
+                            "replicates": 3,
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "method": "ASTM D5002"
+                    }
+                ]
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

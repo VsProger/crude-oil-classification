@@ -1,0 +1,86 @@
+{
+    "oil_id": "AD01581",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "MONTEREY, TORCH",
+        "source_id": "AD01581",
+        "location": "California, USA",
+        "reference": {
+            "year": 1997,
+            "reference": "Wright, K., TORCH., Letter to Bill Lehr, NOAA, September 29, 1997."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 17.1,
+        "labels": [
+            "Crude Oil",
+            "Heavy Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T14:50:28.585-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-25T15:12:30.759-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T10:43:49.461-08:00",
+                "comment": "Issue #27 - Generalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 952.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 16.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 0.0002,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

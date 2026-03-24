@@ -1,0 +1,129 @@
+{
+    "oil_id": "AD01577",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "ARABIAN EXTRA LIGHT, BOUCHARD",
+        "source_id": "AD01577",
+        "alternate_names": [
+            "Berri"
+        ],
+        "location": "Saudi Arabia",
+        "reference": {
+            "year": 1997,
+            "reference": "Nugent, K., Bouchard Transportation CO, Inc., Letter to Bill Lehr, NOAA, August 22, 1997."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 36.39,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "Rin",
+                "date": "2022-11-25T13:26:43.473-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -42.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 38.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 842.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 16.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 3.83e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 40.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            },
+            "bulk_composition": [
+                {
+                    "name": "sulfur",
+                    "measurement": {
+                        "value": 0.0137,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "nickel",
+                    "measurement": {
+                        "value": 1.0,
+                        "unit": "ppm",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "vanadium",
+                    "measurement": {
+                        "value": 6.0,
+                        "unit": "ppm",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ],
+            "industry_properties": [
+                {
+                    "name": "Reid Vapor Pressure",
+                    "measurement": {
+                        "value": 0.04,
+                        "unit": "bar",
+                        "unit_type": "pressure"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

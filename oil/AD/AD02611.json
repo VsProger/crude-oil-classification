@@ -1,0 +1,408 @@
+{
+    "oil_id": "AD02611",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "Ultra Low Sulphur Fuel Oil (ULSFO), RMA-quality oil (SINTEF)",
+        "source_id": "2016-0233",
+        "location": "Shell, the Netherlands",
+        "reference": {
+            "year": 2016,
+            "reference": "Hellstr\u00f8m, K. C. \"Weathering Properties and Toxicity of Marine Fuel Oil\", SINTEF  (2017)."
+        },
+        "sample_date": "2016-04-12",
+        "product_type": "Distillate Fuel Oil",
+        "API": 30.6,
+        "comments": "\"NO00120\" was a duplicate and was deleted. This record was more complete.",
+        "labels": [
+            "Distillate Fuel",
+            "Fuel Oil",
+            "LSFO",
+            "Refined Product",
+            "ULSFO",
+            "VLSFO"
+        ],
+        "model_completeness": 75,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2023-07-25T10:54:42.354-07:00",
+                "comment": "Gas Oil Added"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T11:35:08.363-07:00",
+                "comment": "Gas Oil 10 ppm S added"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T11:41:36.375-07:00",
+                "comment": "Marine Gas Oil 500 ppm added"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T11:47:56.865-07:00",
+                "comment": "Rotterdam Diesel"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T11:56:19.109-07:00",
+                "comment": "WRG"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T12:06:27.149-07:00",
+                "comment": "HDME 50"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T12:11:30.691-07:00",
+                "comment": "SINTEF ULSFO added"
+            },
+            {
+                "name": "RM",
+                "date": "2023-07-25T12:20:25.563-07:00",
+                "comment": "ULSFO"
+            },
+            {
+                "name": "Chris",
+                "date": "2023-08-10T13:51:46.470-07:00",
+                "comment": "Removed diesel label"
+            },
+            {
+                "name": "RM",
+                "date": "2023-08-31T08:48:32.222-07:00",
+                "comment": "added evaporated"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:26:52.276-08:00",
+                "comment": "Removed Problem TBP"
+            },
+            {
+                "name": "RM",
+                "date": "2025-09-30T15:56:55.267-07:00",
+                "comment": "'NO00120' was deleted as it was a duplicate. This needs to be changed to said oil ID."
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "1",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 24.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 75.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.872,
+                            "unit": "g/cm^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 13106.0,
+                            "unit": "cP",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 2.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 4300.0,
+                            "unit": "cP",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 13.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
+                        }
+                    }
+                ]
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.15,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "distillation_data": {
+                "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
+                "cuts": [
+                    {
+                        "fraction": {
+                            "value": 10.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 220.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 20.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 255.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 30.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 290.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 40.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 325.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 50.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 365.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 60.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 410.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 70.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 460.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 80.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 540.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 90.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 675.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 95.0,
+                            "unit": "%",
+                            "unit_type": "concentration"
+                        },
+                        "vapor_temp": {
+                            "value": 750.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "bulk_composition": [
+                {
+                    "name": "Sulfur",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 0.0872,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "Wax",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 13.1,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "name": "14.6% Evaporated",
+                "short_name": "14.6% Evaporated",
+                "fraction_evaporated": {
+                    "value": 14.6,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 30.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 112.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.878,
+                            "unit": "g/cm^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "dynamic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 77782.0,
+                            "unit": "cP",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 2.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 33169.0,
+                            "unit": "cP",
+                            "unit_type": "dynamicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 13.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

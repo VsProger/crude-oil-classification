@@ -1,0 +1,112 @@
+{
+    "oil_id": "AD02251",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "Mars Blend",
+        "source_id": "ODB00-485",
+        "alternate_names": [
+            "Unknown"
+        ],
+        "location": "Gulf of America",
+        "reference": {
+            "year": 1996,
+            "reference": "Rhodes, A.K., \"Guide to World Crudes: Preliminary assay reveals quality of Mars blend\", Oil& Gas Journal, June 10, pp. 67-68, 1996\nJokuty, P., Whiticar, S., Wang, Z., Fingas, M., Fieldhouse, B., Lambert, P., Mullen, J. 1999. Properties of Crude Oils and Oil Products.  Manuscript Report EE-165, Environmental Protection Service, Environment Canada, Ottawa, Ontario.\n\nAs published in: Environment and Climate Change Canada, A Catalogue of Crude Oil and Oil Product Properties (1999)- Revised 2022, Environment and Climate Change Canada, 2022."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 31.0,
+        "comments": "Data from OGJ 96 were originally published in 1996.  The data in this record may have been compiled from multiple sources and reflect samples of varying age and composition.",
+        "labels": [
+            "Crude Oil",
+            "Medium Crude"
+        ],
+        "model_completeness": 20
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "sample_id": "ODB00-485",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -36.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.8703,
+                            "unit": "g/mL",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 83.0,
+                            "unit": "sus",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 27.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 64.0,
+                            "unit": "sus",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 46.0,
+                            "unit": "sus",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 60.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "bulk_composition": [
+                {
+                    "name": "Sulphur Content",
+                    "measurement": {
+                        "value": 2.0,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

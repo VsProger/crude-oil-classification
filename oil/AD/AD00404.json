@@ -1,0 +1,120 @@
+{
+    "oil_id": "AD00404",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "FUEL OIL NO.1 (DIESEL/HEATING FUEL), PETRO STAR",
+        "source_id": "AD00404",
+        "reference": {
+            "year": 1993,
+            "reference": "Petro Star Valdez Refinery., Letter to Glen Watabayashi, NOAA, Febuary 22, 1993."
+        },
+        "product_type": "Distillate Fuel Oil",
+        "API": 39.0,
+        "labels": [
+            "Diesel",
+            "Distillate Fuel",
+            "Fuel Oil",
+            "Home Heating Oil",
+            "MDO",
+            "Refined Product"
+        ],
+        "model_completeness": 24,
+        "change_log": [
+            {
+                "name": "Jeff",
+                "date": "2025-11-14T14:00:57.672-08:00",
+                "comment": "Added diesel tag"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -51.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 38.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 829.19,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 1.3e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "volume fraction",
+                "cuts": [
+                    {
+                        "fraction": {
+                            "value": 0.1,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 205.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.9,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 288.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

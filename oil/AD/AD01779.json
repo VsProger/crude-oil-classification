@@ -1,0 +1,137 @@
+{
+    "oil_id": "AD01779",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "AUTOMOTIVE DIESEL FUEL, SHELL REFINING PTY ",
+        "source_id": "AD01779",
+        "location": "Australia",
+        "reference": {
+            "year": 1998,
+            "reference": "Gilbert, T., Austrlian Maritime Safety Authority., Letter to William Lehr, NOAA, February 26, 1998."
+        },
+        "product_type": "Distillate Fuel Oil",
+        "API": 34.83,
+        "labels": [
+            "Diesel",
+            "Distillate Fuel",
+            "Fuel Oil",
+            "Gas Oil",
+            "Home Heating Oil",
+            "MDO",
+            "No. 2 Fuel Oil",
+            "Refined Product"
+        ],
+        "model_completeness": 48,
+        "change_log": [
+            {
+                "name": "Rin",
+                "date": "2022-11-25T13:31:20.001-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T09:40:10.458-08:00",
+                "comment": "\u2013 Distillate Fuel Oil: Fraction Recovered Changed to 100%"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "flash_point": {
+                    "measurement": {
+                        "value": 80.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 850.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 2.8e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 40.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
+                "cuts": [
+                    {
+                        "fraction": {
+                            "value": 0.1,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 224.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.5,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 276.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.9,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 336.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

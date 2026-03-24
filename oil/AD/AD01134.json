@@ -1,0 +1,102 @@
+{
+    "oil_id": "AD01134",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "UMM SHAIF",
+        "source_id": "AD01134",
+        "location": "Abu Dhabi",
+        "reference": {
+            "year": 1986,
+            "reference": "Yeager, John. 1986. U.S. Crude and Products Import 1985.  Prepared for the American Petroleum Institute, Washington, D.C. 14pp."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 37.4,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "Rin",
+                "date": "2022-11-25T13:58:47.307-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-09-09T14:00:22.248-07:00",
+                "comment": "Change to CC"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -30.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 837.04,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 3e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 38.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            },
+            "bulk_composition": [
+                {
+                    "name": "Sulfur",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 1.51,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

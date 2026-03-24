@@ -1,0 +1,90 @@
+{
+    "oil_id": "AD00279",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "UNION, UNOCAL",
+        "source_id": "AD00279",
+        "location": "Texas, Beaumont, USA",
+        "reference": {
+            "year": 1993,
+            "reference": "UNION 1993.  Material Safety Data Sheet: UNOCAL Crude Oil.  MSDS from Union Oil Company of California. Nederland, Texas: Beaumont Terminal.  7 pp."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 28.6,
+        "comments": "Oil data is for Union Crude Oil.  Sample collected at UNOCAL Beaumont Terminal.",
+        "labels": [
+            "Crude Oil",
+            "Medium Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T14:48:26.217-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T10:39:16.340-08:00",
+                "comment": "Issue #27 - Generalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -15.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 883.05,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 1.12e-05,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 40.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

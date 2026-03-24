@@ -1,0 +1,149 @@
+{
+    "oil_id": "AD01938",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "RAINBOW LIGHT AND MEDIUM, OIL & GAS",
+        "source_id": "AD01938",
+        "location": "Alberta, Canada",
+        "reference": {
+            "year": 1998,
+            "reference": "McNamara, J. (ed.), Patterson, M. (ed.),1998. Oil & Gas Journal Data Book. Tulsa, OK: Pennwell Books. 402 pp."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 40.7,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 16,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T14:11:31.106-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T10:23:52.034-08:00",
+                "comment": "Issue #27 -- Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-09-05T14:43:18.628-07:00",
+                "comment": "Change to CC"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 3.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 821.0,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 3.77e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 40.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            },
+            "bulk_composition": [
+                {
+                    "name": "Sulfur",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 0.5,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "wax_content",
+                    "measurement": {
+                        "value": 20.0,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "nickel",
+                    "measurement": {
+                        "value": 0.85,
+                        "unit": "ppm",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "vanadium",
+                    "measurement": {
+                        "value": 0.5,
+                        "unit": "ppm",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ],
+            "industry_properties": [
+                {
+                    "name": "Reid Vapor Pressure",
+                    "measurement": {
+                        "value": 0.339,
+                        "unit": "bar",
+                        "unit_type": "pressure"
+                    }
+                },
+                {
+                    "name": "Conradson Carbon Residue (CCR)",
+                    "measurement": {
+                        "value": 0.0165,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

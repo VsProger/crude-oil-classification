@@ -1,0 +1,114 @@
+{
+    "oil_id": "AD01269",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "BARROW ISLAND, OIL & GAS",
+        "source_id": "AD01269",
+        "location": "Australia",
+        "reference": {
+            "year": 1995,
+            "reference": "McNamara, J. (ed.), 1995. Oil & Gas Journal Data Book. Tulsa, OK: Pennwell Books. 411 pp."
+        },
+        "product_type": "Crude Oil NOS",
+        "API": 36.8,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
+        "model_completeness": 20,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T14:32:19.625-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "Dalina",
+                "date": "2025-03-07T17:08:27.106-08:00",
+                "comment": "Merged sulfur content data from matching CC record"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -30.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 840.03,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 3.4e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 10.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 1.8e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 100.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            },
+            "bulk_composition": [
+                {
+                    "name": "Sulfur Content",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 0.05,
+                        "unit": "%",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}

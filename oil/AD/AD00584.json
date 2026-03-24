@@ -1,0 +1,112 @@
+{
+    "oil_id": "AD00584",
+    "adios_data_model_version": "0.12.0",
+    "metadata": {
+        "name": "JET A (DFA), TESORO",
+        "source_id": "AD00584",
+        "location": "Alaska, Kenai, USA",
+        "reference": {
+            "year": 1993,
+            "reference": "Helmuth, A., Tesoro Alaska Petroleum Company, Letter to  Debra Simecek-Beatty,  NOAA, March 3, 1993."
+        },
+        "product_type": "Distillate Fuel Oil",
+        "API": 43.0,
+        "comments": "Freezing point is less than -50\u00c2\u00b0F.",
+        "labels": [
+            "Distillate Fuel",
+            "Fuel Oil",
+            "Jet Fuel",
+            "Kerosene",
+            "Refined Product"
+        ],
+        "model_completeness": 20,
+        "change_log": [
+            {
+                "name": "R",
+                "date": "2022-11-25T16:01:57.131-08:00",
+                "comment": "Issue #27 -- Normalize Location"
+            },
+            {
+                "name": "R",
+                "date": "2022-11-28T11:17:03.063-08:00",
+                "comment": "Issue #27 - Normalize Location"
+            }
+        ]
+    },
+    "sub_samples": [
+        {
+            "metadata": {
+                "name": "Fresh Oil Sample",
+                "short_name": "Fresh Oil",
+                "fraction_evaporated": {
+                    "value": 0.0,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -51.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 40.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 810.18,
+                            "unit": "kg/m^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 288.16,
+                            "unit": "K",
+                            "unit_type": "temperature"
+                        },
+                        "method": "Converted from API"
+                    }
+                ],
+                "kinematic_viscosities": [
+                    {
+                        "viscosity": {
+                            "value": 1.25e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": 40.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "viscosity": {
+                            "value": 6.9e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
+                        },
+                        "ref_temp": {
+                            "value": -20.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ]
+            },
+            "distillation_data": {
+                "type": "mass fraction"
+            }
+        }
+    ],
+    "review_status": {
+        "status": "Not Reviewed"
+    }
+}
