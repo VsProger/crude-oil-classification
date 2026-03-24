@@ -159,8 +159,10 @@ HEAVY
 ```
 oil_app/
 │
-├── app.py          # Streamlit приложение
-├── model.pkl       # обученная модель
+├── /oil             # json dataset
+├── app.py           # Streamlit приложение
+├── diplom_oil.ipynb # обучение модели и метрики
+├── model.pkl        # обученная модель
 └── README.md
 ```
 
