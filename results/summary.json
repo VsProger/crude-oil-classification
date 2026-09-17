@@ -1,0 +1,24 @@
+{
+  "n_assays": 618,
+  "class_balance": {
+    "light": 332,
+    "medium": 143,
+    "heavy": 143
+  },
+  "coverage": {
+    "API": 1.0,
+    "density": 1.0,
+    "viscosity": 1.0,
+    "pour_point": 0.7233,
+    "flash_point": 0.4693,
+    "saturates": 0.3948,
+    "aromatics": 0.4029,
+    "resins": 0.3835,
+    "asphaltenes": 0.7346,
+    "sulfur": 0.1133,
+    "class": 1.0
+  },
+  "leakage_rule_accuracy": 0.9935,
+  "density_api_correlation": -0.9806,
+  "random_state": 42
+}
